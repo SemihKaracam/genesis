@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: center
+}
+
+.courses h1 {
+    font-size: 50px;
+    padding-bottom: 15px;
+}
+
+.courses {
+    margin-top: 40px;
+    padding-top: 30px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: crimson;
+    padding: 20px 30px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+a {
+    color:black;
+    transition: all 1.0s ease;
+}
+
+
+a:hover{
+    color:#fff;
+}
+
+
+section img{
+    display: block;
+    width: 100%;
+}
+
+.hed {
+    position: absolute;
+    left: 50%;
+    top: 23%;
+    transform: translate(-50%,-50%);
+    font-size: 50px;
+    font-weight: bold;
+    color: crimson;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    background-color: crimson;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 63%;
+    transform: translate(-50%,-50%);
+    padding-top: 13px;
+    transition: all 1s ease;
+    display: inline-block;
+    border: 1px solid;
+}
+
+
+.btn:hover {
+    background-color: white;
+    color: crimson;
+}
+
+
+.course-col {
+    width: 30%;
+    display: inline-block;
+    padding: 20px 40px;
+    background:darkgray;
+    margin:60px 20px;
+    transition: all 1s ease;
+    border-radius: 10px;
+}
+
+.course-col:hover {
+    border-radius: 10px;
+    background-color: greenyellow;
+}
+
+
+.course-col h1{
+    font-size: 20px;
+}
+
+
+.campus {
+    margin-top: 50px;
+}
+
+.campus h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+.campus-col{
+    width: 25%;
+    display: inline-block;
+    margin: 40px;
+
+}
+
+
+.campus-col:hover {
+    background-color: crimson;
+}
+
+
+.text-facilities h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.text-facilities {
+    margin-bottom: 50px;
+}
+
+
+.facilities-col{
+    width: 25%;
+    margin:10px 30px;
+    display: inline-block;
+}
+
+.facilities-col img {
+    border-radius: 10px;
+    height: 400px;
+}
+
+
+.text-student {
+    margin: 40px 10px;
+}
+
+.text-student h1 {
+    padding-bottom: 20px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.comments {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.comment {
+    background-color: wheat;
+    width:40%;
+    display: inline-block;
+    padding: 30px 20px;
+    margin-right: 30px;
+}
+
+.comment img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.comment p {
+    padding-bottom: 20px;
+}
+
+.image2 img{
+    width: 80%;
+    height: auto;
+    position: relative;
+    left: 50%;
+    top: 400px;
+    transform: translate(-50%,-50%);
+}
+
+.image2-text{
+    width: 60%;
+    position: relative;
+    color: white;
+    left: 50%;
+    top: 700px;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+    font-size: 40px;
+}
+
+.image2-btn {
+    position: relative;
+    width: 10%;
+    left: 50%;
+    padding-top: 10px;
+    height: 40px;
+    top: 700px;
+    border:1px solid white;
+    background-color: red;
+    transform: translate(-50%,-50%);
+    color: white;
+    z-index: 1001;
+    transition: all 1s ease;
+    font-weight: bold;
+}
+
+
+.image2-btn:hover {
+    background-color: wheat;
+    border-radius: 2px;
+}
